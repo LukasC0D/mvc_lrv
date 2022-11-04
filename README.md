@@ -14,6 +14,7 @@ Laravel MVC CRUD Listings app.
 git clone https://github.com/LukasC0D/mvc_lrv.git
 ```
 - Open cloned repository with VS Code.
+- Rename .env.example to .env
 - Install composer (installation instructions: [Composer](https://getcomposer.org/download)).
 - if composer is installed locally in console type: php 'path to composer.phar file'/composer.phar install.
 - if composer is installed on your system globally in console type: composer install.
