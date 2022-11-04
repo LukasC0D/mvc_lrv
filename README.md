@@ -6,16 +6,18 @@ Laravel MVC CRUD Listings app.
 
 ## How to run project?
 
--   Download [XAMPP](https://www.apachefriends.org/index.html) and install it.
--   Download [MySQL Workbench](https://www.mysql.com/products/workbench/) and install it.
--   Download or clone git repository BIT_PP9 and place it inside htdocs directory (XAMPP).
--   Run XAMPP and start Apache and MySQL server.
-- Open MySQL Workbench and create database.
-- Open up your project and rename .env.example to .env
-- Change database name in .env file to your created database name 
-- Install composer (installation instructions: Composer) and in the terminal:
-- if composer is installed locally in console type in: php 'path to composer.phar file'/composer.phar install
-- if composer is installed on your system globally in console type in: composer install
+- Download [XAMPP](https://www.apachefriends.org/index.html) and install it.
+- Clone or download git repository https://github.com/LukasC0D/mvc_lrv.git 
+- Add repository to htdocs. The folder is located in the C drive (C:/xampp/htdocs).
+- Or clone repository directly to htdocs. In htdocs directory right mouse click Git Bash Here. Type in:
+```sh
+git clone https://github.com/LukasC0D/mvc_lrv.git
+```
+- Open cloned repository with VS Code.
+- Install composer (installation instructions: [Composer](https://getcomposer.org/download)).
+- if composer is installed locally in console type: php 'path to composer.phar file'/composer.phar install.
+- if composer is installed on your system globally in console type: composer install.
+- Run XAMPP. In the C drive run (C:/xampp/xampp-control.exe) and start the Apache server.
 - To run project in terminal type in these commands:
 
 ```sh
